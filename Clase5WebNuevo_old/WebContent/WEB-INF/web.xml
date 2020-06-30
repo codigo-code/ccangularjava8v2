@@ -14,23 +14,11 @@
 	</welcome-file-list>
 
 
-	<filter>
-		<filter-name>call</filter-name>
-		<filter-class>edu.codigocode.servlets.filter.CallFilter</filter-class>
-
-	</filter>
-
-	<filter-mapping>
-		<filter-name>call</filter-name>
-		<url-pattern>/caulcularIMC</url-pattern>
-	</filter-mapping>
-
-
 	<servlet>
 		<servlet-name>calculo</servlet-name>
 		<servlet-class>edu.codigocode.servlets.CalculoIMC</servlet-class>
 	</servlet>
-
+	
 
 	<servlet-mapping>
 		<servlet-name>calculo</servlet-name>
