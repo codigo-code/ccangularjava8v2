@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Dar de alta peliculas</h2>
+	<form method="post" action="guardarPelicula">
+		<select name="tipo" required="true">
+			<option value="">Seleccion el formato</option>
+			<option value="DVD">DVD</option>
+			<option value="CD">CD</option>
+			<option value="VHS">VHS</option>
+		</select><br/>
+		<input type="text" name="nombre" placeholder="nombre de la pelicula"
+			required="true" /> <br /> 
+			<select name="genero" required="true">
+			<option value="">Seleccione el Genero </option>
+				<option value="ACCION">accion</option>
+				<option value="ROMANTICA">romantica</option>
+				<option value="COMEDIA">comedia</option>
+				<option value="FICCION">ficcion</option>
+				<option value="DRAMA">drama</option>
+				<option value="TERROR">terror</option>
+				<option value="ANIMACION">animacion</option>
+				<option value="SUSPENSO">suspenso</option>
+				<option value="INFANTIL">infantil</option>
+				<option value="DOCUMENTAL">documental</option>
+		</select><br/>
+		<input type="date" name="fechalanzamiento" placeholder="Fecha de lanzamiento" /><br/>
+		<input type="number" name="duraccion" placeholder="duracion de la pelicula"  required="true" /><br/>
+		<input type="number" name="calificacion" placeholder="calificacion de la pelicula" /> <br/>
+		<select name="tipocalidad" required="true">
+			<option value="">seleccione la calidad </option>
+			<option value="4K">4K</option>
+			<option value="FULLHD">FullHD</option>
+			<option value="3D">3D </option>
+			<option value="HD">HD </option>
+			<option value="720">1280x720 </option>
+			<option value="360">480x360</option>
+		</select><br/>
+		<input type="submit" value="guardar"/>
+	</form>
+
+</body>
+</html>
