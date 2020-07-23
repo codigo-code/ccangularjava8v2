@@ -1,12 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
+
+// TypeScript --->  javascript -> NO es orientado a objetos , Pero SI a Prototype
+// TypeScript es un sub-lenguaje,, Transpilar a Javascript
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-
   public nombre: string;
   public num1: number;
   public num2: number;
