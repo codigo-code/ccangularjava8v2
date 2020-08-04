@@ -1,0 +1,11 @@
+<p>profile works!</p>
+
+
+<input type="file" [(ngModel)]="archivo"  (change)="pressMe($event.target.files)"/>
+
+
+<br/>
+<button (click)="mirarIMG()">mirar </button>
+
+
+----> <img [src]="imagenLoca"  />
